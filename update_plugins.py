@@ -8,6 +8,7 @@ from os import path
 
 #--- Globals ----------------------------------------------
 PLUGINS = """
+vim-thai-keys https://github.com/chakrit/vim-thai-keys
 arc.vim https://github.com/vim-scripts/arc.vim
 vim-coffee-script https://github.com/kchmck/vim-coffee-script
 vim-ruby https://github.com/vim-ruby/vim-ruby
