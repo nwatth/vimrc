@@ -8,8 +8,8 @@
 """"""""""""""""""""""""""""""
 " => Load pathogen paths
 """"""""""""""""""""""""""""""
-call pathogen#infect('~/.vim_runtime/sources_forked/{}')
-call pathogen#infect('~/.vim_runtime/sources_non_forked/{}')
+call pathogen#infect('~/.vim_runtime/plugins/{}')
+call pathogen#infect('~/.vim_runtime/vendors/{}')
 call pathogen#helptags()
 
 """"""""""""""""""""""""""""""
@@ -32,11 +32,7 @@ map <leader>f :MRU<CR>
 """"""""""""""""""""""""""""""
 " => YankRing
 """"""""""""""""""""""""""""""
-if has("win16") || has("win32")
-    " Don't do anything
-else
-    let g:yankring_history_dir = '~/.vim_runtime/temp_dirs/'
-endif
+let g:yankring_history_dir = '~/.vim_runtime/.history/'
 
 
 """"""""""""""""""""""""""""""
@@ -134,3 +130,10 @@ nnoremap <silent> <leader>l :call SyntasticCheckCoffeescript()<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Ack.vim (better grep)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <leader>g :Ack 
+
