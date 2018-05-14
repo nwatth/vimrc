@@ -39,6 +39,7 @@ VENDORS = [
     "michaeljsmith/vim-indent-object",
     "vim-scripts/mru.vim",
     "vim-scripts/YankRing.vim",
+    "mkitt/tabline.vim",
 ]
 
 GITHUB_ZIP = 'https://github.com/%s/archive/master.zip'
