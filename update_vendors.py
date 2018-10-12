@@ -16,6 +16,11 @@ VENDORS = [
     "kchmck/vim-coffee-script",
     "cakebaker/scss-syntax.vim",
     "tpope/vim-markdown",
+    "posva/vim-vue",
+    "isRuslan/vim-es6",
+
+    # Linter
+    "ngmy/vim-rubocop",
 
     # Tools
     "bling/vim-airline",
@@ -40,6 +45,8 @@ VENDORS = [
     "vim-scripts/mru.vim",
     "vim-scripts/YankRing.vim",
     "mkitt/tabline.vim",
+    "aklt/plantuml-syntax",
+    "scrooloose/vim-slumlord",
 ]
 
 GITHUB_ZIP = 'https://github.com/%s/archive/master.zip'

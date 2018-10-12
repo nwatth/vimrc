@@ -138,3 +138,10 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <leader>g :Ack 
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => RuboCop (A Ruby static code analyzer)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:vimrubocop_keymap = 0
+nmap <Leader>r :RuboCop<CR>
+
