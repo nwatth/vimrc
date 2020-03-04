@@ -22,6 +22,7 @@ VENDORS = [
     # Linter
     "ngmy/vim-rubocop",
     "prettier/vim-prettier",
+    "dgraham/vim-eslint",
 
     # Tools
     "bling/vim-airline",

@@ -147,8 +147,14 @@ nmap <Leader>r :RuboCop<CR>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Ack.vim (better grep)
+" => Prettier
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:prettier#quickfix_enabled = 1
 autocmd TextChanged,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => ESLint
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+noremap <leader>l :make --fix % <cr>:cwindow<cr>:redraw!<cr>
